@@ -1,0 +1,929 @@
+fileFormatVersion: 2
+guid: e514a43c35458084b98ede6a248589fa
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: fish_10_body
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 374
+      height: 263
+    spriteID: defb000ff20a1f1499eddf36d0cc5bce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 11, y: 120}
+  - name: fish_10_tail
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 275
+      width: 159
+      height: 256
+    spriteID: 1c539ea2c160c9b479e7ba58defe13b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 275}
+    spritePosition: {x: 339, y: 125}
+  - name: fish_10_fin_top_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 171
+      y: 275
+      width: 170
+      height: 85
+    spriteID: 87cdd2042f69ba74b974fd202364eecc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 171, y: 275}
+    spritePosition: {x: 136, y: 348}
+  - name: fish_10_fin_top_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 386
+      y: 157
+      width: 82
+      height: 49
+    spriteID: 34b270ffa59d5b24689f49a70003e17e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 386, y: 157}
+    spritePosition: {x: 273, y: 325}
+  - name: fish_10_fin_bottom_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 386
+      y: 4
+      width: 108
+      height: 68
+    spriteID: d476b9c4310776a478663aa194134a1e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 386, y: 4}
+    spritePosition: {x: 198, y: 89}
+  - name: fish_10_fin_bottom_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 386
+      y: 80
+      width: 77
+      height: 69
+    spriteID: 2023b90f493c53442a30b2744b37e862
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 386, y: 80}
+    spritePosition: {x: 297, y: 132}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Fish_1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 675c349f8ab74594fadd3676f8bea4df
+    layerID: 77
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: fish_1_body
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: d71a954fdf376a444bbd4fdae779d025
+    layerID: 76
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_1_tail
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 169094f1fa48e1e4f9bc7a80ff7be1a3
+    layerID: 75
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_1_fin_top
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 2f2172e40b84122498e5fe0a190f3de8
+    layerID: 74
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_1_fin_bottom_1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 99e606e8764327842a430eb93ba26378
+    layerID: 73
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_1_fin_bottom_2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 21aa8218799b2e846b6cb2af9ee155bd
+    layerID: 72
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Fish_2
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: f5aaea232b39d474ca732005a167f1c0
+    layerID: 70
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: fish_2_body
+    spriteName: 
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 8aefee53c05cfb3488fbf19c91061ffc
+    layerID: 69
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_2_tail
+    spriteName: 
+    isGroup: 0
+    parentIndex: 6
+    spriteID: fa523e42b5dfdbf48a28fb8ca766e135
+    layerID: 68
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_2_fin_top
+    spriteName: 
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 8b87dd1eb3a93a544ba3c063b5f9f97d
+    layerID: 67
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_2_fin_bottom
+    spriteName: 
+    isGroup: 0
+    parentIndex: 6
+    spriteID: 8fca67f80b913994da787925039b328c
+    layerID: 66
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Fish_3
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: d0bd1ac38a2cf4c40a0da3d0582040ef
+    layerID: 64
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: fish_3_body
+    spriteName: 
+    isGroup: 0
+    parentIndex: 11
+    spriteID: b8a2202db4f476b488561ed80623cfcf
+    layerID: 63
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_3_tail
+    spriteName: 
+    isGroup: 0
+    parentIndex: 11
+    spriteID: cb0f24538803abf498fd2d9de18b1624
+    layerID: 62
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_3_fin_top
+    spriteName: 
+    isGroup: 0
+    parentIndex: 11
+    spriteID: e286f0ce23c006748865c0f66b5e0846
+    layerID: 61
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_3_fin_bottom_1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 63efdeecb181d4f4d9f7f1b486fe86e0
+    layerID: 60
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_3_fin_bottom_2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 11
+    spriteID: 02513183255727344b381d567074e82c
+    layerID: 59
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Fish_4
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: b16de898e2a99bf46b3425bda8b595a0
+    layerID: 57
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: fish_4_body
+    spriteName: 
+    isGroup: 0
+    parentIndex: 17
+    spriteID: b20131211e4556e4881f1a0a1130338c
+    layerID: 56
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_4_tail
+    spriteName: 
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 598846bc3a578514ca1a9d12fa21f31f
+    layerID: 55
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_4_fin_top
+    spriteName: 
+    isGroup: 0
+    parentIndex: 17
+    spriteID: edf17438ec46f624cb77ef4e61260081
+    layerID: 54
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_4_fin_bottom_1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 67714f4b5e9a41e4fbddba432065dd0f
+    layerID: 53
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_4_fin_bottom_2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 17
+    spriteID: 2e3e1f90d577a844eaa64281f4bd73ca
+    layerID: 52
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Fish_5
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: b349cba0fe29fa5439c7f2d09e6c381f
+    layerID: 50
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: fish_5_body
+    spriteName: 
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 1991de9d0dc08c843880ab22cc97fd00
+    layerID: 49
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_5_tail
+    spriteName: 
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 8fa6f9c6926563f44a3ffcdf68c32784
+    layerID: 48
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_5_fin_top
+    spriteName: 
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 4f1a951f8324f6e4699c1f681fe24d41
+    layerID: 47
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_5_fin_bottom_1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 7e14df45451113c4fbc03d995e9772ac
+    layerID: 46
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_5_fin_bottom_2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 23
+    spriteID: 8a41cdeae4ac819469995acbd5b70182
+    layerID: 45
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Fish_6
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 9e4e896a1ceefea48b75a118c7001066
+    layerID: 43
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: fish_6_body
+    spriteName: 
+    isGroup: 0
+    parentIndex: 29
+    spriteID: 8a81745072136c349b3c407ee1345c63
+    layerID: 42
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_6_tail
+    spriteName: 
+    isGroup: 0
+    parentIndex: 29
+    spriteID: 8e2603e1a36ed8940b1b97485072e57d
+    layerID: 41
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_6_fin_top_1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 29
+    spriteID: 7e8badd50a9c4214f93a2f3e513fe771
+    layerID: 40
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_6_fin_top_2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 29
+    spriteID: ea91e4b7e87522c42bf09d139511c583
+    layerID: 39
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_6_fin_bottom_1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 29
+    spriteID: 1beb67f5eb1019f44a9fa408c315d0cd
+    layerID: 38
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_6_fin_bottom_2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 29
+    spriteID: bb89d6a5e0a586f4aaef01ee55fcc1db
+    layerID: 37
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Fish_7
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 000ca52bc43776241a5db8fce1e21c76
+    layerID: 35
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: fish_7_body
+    spriteName: 
+    isGroup: 0
+    parentIndex: 36
+    spriteID: a80fce1e0ddf9b5458c5c4e97aa56ed8
+    layerID: 34
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_7_tail
+    spriteName: 
+    isGroup: 0
+    parentIndex: 36
+    spriteID: aea154020266c63438b363add11d7e86
+    layerID: 33
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_7_fin_top_1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 36
+    spriteID: 62c1efdf841209d44811a21e782f83c4
+    layerID: 32
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_7_fin_top_2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 36
+    spriteID: 733f289f4c88f5a4daa6831015db9681
+    layerID: 31
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_7_fin_top_3
+    spriteName: 
+    isGroup: 0
+    parentIndex: 36
+    spriteID: eac101cedcd34174f8fe69c9f5f4fd3a
+    layerID: 30
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_7_fin_bottom_1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 36
+    spriteID: d3cb6effda5bc0c46bd9fdaef1dd8fe7
+    layerID: 29
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_7_fin_bottom_2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 36
+    spriteID: 8213461195f9d144da89aa0a1af356f9
+    layerID: 28
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Fish_8
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 1742ddcd82616914681b82cd7dee31fe
+    layerID: 26
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: fish_8_body
+    spriteName: 
+    isGroup: 0
+    parentIndex: 44
+    spriteID: 2257b66aa731d594b95df227b66f87e6
+    layerID: 25
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_8_tail
+    spriteName: 
+    isGroup: 0
+    parentIndex: 44
+    spriteID: 2769008ad1b29824187a6a868def80ed
+    layerID: 24
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_8_fin_top
+    spriteName: 
+    isGroup: 0
+    parentIndex: 44
+    spriteID: 8e13ed85b83d98b42a4c110b2ed6be05
+    layerID: 23
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_8_fin_bottom_1
+    spriteName: 
+    isGroup: 0
+    parentIndex: 44
+    spriteID: 77c6b32809da16847aeb86198942d699
+    layerID: 22
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_8_fin_bottom_2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 44
+    spriteID: fd283c3fab0b6e3429c814004de9f91a
+    layerID: 21
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Fish_9
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 4373d3201b8c40e4cb0624f923a8d473
+    layerID: 19
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: fish_9_body
+    spriteName: 
+    isGroup: 0
+    parentIndex: 50
+    spriteID: a1d560acb96da1140b945c6c7f5ca91a
+    layerID: 18
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_9_tail
+    spriteName: 
+    isGroup: 0
+    parentIndex: 50
+    spriteID: 81469091c76e5d24a93a39d715b55794
+    layerID: 17
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_9_fin_top
+    spriteName: 
+    isGroup: 0
+    parentIndex: 50
+    spriteID: 220121f4624d5e845bc40025fafd9bb9
+    layerID: 16
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_9_fin_bottom
+    spriteName: 
+    isGroup: 0
+    parentIndex: 50
+    spriteID: 5f149a60f93d3a4429461f8bfdb52e1f
+    layerID: 15
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_9_fin_bottom_2
+    spriteName: 
+    isGroup: 0
+    parentIndex: 50
+    spriteID: 0f5cb53c23c89f043b30de876af76d6c
+    layerID: 14
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Fish_10
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 1d9eff6e952c98349908f619ad4f184f
+    layerID: 12
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: fish_10_body
+    spriteName: fish_10_body
+    isGroup: 0
+    parentIndex: 56
+    spriteID: defb000ff20a1f1499eddf36d0cc5bce
+    layerID: 11
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: fish_10_tail
+    spriteName: fish_10_tail
+    isGroup: 0
+    parentIndex: 56
+    spriteID: 1c539ea2c160c9b479e7ba58defe13b4
+    layerID: 10
+    mosaicPosition: {x: 4, y: 275}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: fish_10_fin_top_1
+    spriteName: fish_10_fin_top_1
+    isGroup: 0
+    parentIndex: 56
+    spriteID: 87cdd2042f69ba74b974fd202364eecc
+    layerID: 9
+    mosaicPosition: {x: 171, y: 275}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: fish_10_fin_top_2
+    spriteName: fish_10_fin_top_2
+    isGroup: 0
+    parentIndex: 56
+    spriteID: 34b270ffa59d5b24689f49a70003e17e
+    layerID: 8
+    mosaicPosition: {x: 386, y: 157}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: fish_10_fin_bottom_1
+    spriteName: fish_10_fin_bottom_1
+    isGroup: 0
+    parentIndex: 56
+    spriteID: d476b9c4310776a478663aa194134a1e
+    layerID: 7
+    mosaicPosition: {x: 386, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: fish_10_fin_bottom_2
+    spriteName: fish_10_fin_bottom_2
+    isGroup: 0
+    parentIndex: 56
+    spriteID: 2023b90f493c53442a30b2744b37e862
+    layerID: 6
+    mosaicPosition: {x: 386, y: 80}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: generated-image (1)
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c9f875ccb142ddb458e73ab093c98a62
+    layerID: 4
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: generated-image
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b5b1fbf5e048e284f935be458ec7c85a
+    layerID: 3
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  - name: image+_
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1cf36ce5b8429be4089b01028dac6e81
+    layerID: 2
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
