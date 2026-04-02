@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Crayon-Fish</title>
+    
+    <!--
+        TossFrameworkBridge.js 로드
+        - Toss 웹 프레임워크 API 및 window.requestTossSafeArea 전역 함수를 등록합니다.
+        - type="module"로 로드하여 ES Module import 구문(@apps-in-toss/web-framework)을 사용합니다.
+        - Unity 로더보더 먼저 선언하여 Unity 인스턴스 생성 전에 전역 함수가 준비되도록 합니다.
+    -->
+    <script type="module" src="/src/TossFrameworkBridge.js"></script>
+</head>
+<body style="text-align: center; padding: 0; border: 0; margin:0;">
+    <!--
+        Unity WebGL 렌더링 캔버스
+        - id="unity-canvas" : TossFrameworkBridge.js에서 캔버스 크기를 측정할 때 사용합니다.
+        - 모바일 환경에서는 아래 스크립트가 width/height를 100%로 재설정합니다.
+    -->
+    <canvas id="unity-canvas" width=720 height=1280 tabindex="-1"
+            style="width: 720px; height: 1280px; background: url('Build/Crayon-fish.jpg') center / cover">
+    </canvas>
+    <script src="Build/Crayon-fish.loader.js"></script>
+    <script>
+        // 모바일 환경에서 캔버스가 브라우저 전체 화면을 채우도록 설정
+        if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent))
+        {
+            var meta = document.createElement('meta');
+            meta.name = 'viewport';
+            meta.content = 'width=device-width, height=device-height, ' +
+                'initial-scale=1, 0, user-scalable=no, shrink-to-fit=yes';
+            document.getElementsByTagName('head')[0].appendChild(meta);
+            
+            var canvas = document.querySelector("#unity-canvas");
+            canvas.style.width = "100%";
+            canvas.style.height = "100%";
+            canvas.style.position = "fixed";
+            
+            document.body.style.textAlign = "left";
+        }
+        
+        /*
+         * window.unityInstance
+         * TossFrameworkBridge.js의 SendMessage 호출에서 Unity 인스턴스에 접근하기 위해 전역 변수로 선언합니다.
+         * createUnityInstance() 완료 후 실제 인스턴스가 할당됩니다.
+         */
+        window.unityInstance = null;
+        
+        createUnityInstance(document.querySelector("#unity-canvas"), {
+            dataUrl: "Build/Crayon-fish.data.br",
+            frameworkUrl: "Build/Crayon-fish.framework.js.br",
+            codeUrl: "Build/Crayon-fish.wasm.br",
+            streamingAssetsUrl: "StreamingAssets",
+            companyName: "DefaultCompany",
+            productName: "Crayon-Fish",
+            productVersion: "1.0",
+        }).then((instance) => {
+            // Unity 인스턴스를 전역 변수에 할당
+            // 이 시점 이후 TossFrameworkBridge.js에서 SendMessage 호출이 가능해집니다.
+            window.unityInstance = instance;
+            console.log("[index.html] Unity 인스턴스 생성 완료.");
+        }).catch((error) => {
+            console.error("[index.html] Unity 인스턴스 생성 실패: ", error);
+        });
+    </script>
+</body>
+</html>
