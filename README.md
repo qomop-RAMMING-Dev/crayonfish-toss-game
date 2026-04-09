@@ -26,7 +26,7 @@
       <th>타겟 플랫폼</th><td align="center">WebGL (Mobile Web Browser)</td>
     </tr>   
     <tr>
-      <th>프로젝트 노션 페이지</th><td align="center"><a href="https://cham-qomop.itch.io/crayonfish">크레용피쉬(CrayonFish) 노션 바로가기</a></td>
+      <th>프로젝트 노션 페이지</th><td align="center"><a href="https://www.notion.so/Crayonfish-33a784b9ff71803bac98d449b6a71407?source=copy_link">크레용피쉬(CrayonFish) 노션 바로가기</a></td>
     </tr>
     <tr>
       <th>게임 플레이 페이지</th><td align="center"><a href="https://cham-qomop.itch.io/crayonfish">Itch.io에서 크레용피쉬 데모판 체험하기</a></td>
