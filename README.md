@@ -179,9 +179,3 @@ Assets/
       └── Web-Frontend/
            ├── index.html             # WebGL 빌드 메인 페이지 및 캔버스 설정
            └── TossFrameworkBridge.js # Toss 프레임워크 API 연동 및 데이터 전송
-```
-
-## 💡 Technical Challenges
-// TODO: 생각나는대로 내용 채우기
-- 해결 완료: ![Fixed](https://img.shields.io/badge/Status-Fixed-green?style=flat-square)
-- 고민 흔적: ![Challenge](https://img.shields.io/badge/Type-Optimization-orange?style=flat-square)
